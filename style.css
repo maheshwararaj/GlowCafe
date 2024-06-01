@@ -459,6 +459,9 @@ ul {
         top: 15px;
         filter: brightness(0.1) ;
     }
+    .mobile-disable{
+        display: none;
+    }
 }
 
 @media (max-width: 400px) {

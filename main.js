@@ -1,6 +1,14 @@
 $(document).ready(function ($) {
     "use strict";
-
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener('click', function (e) {
+            e.preventDefault();
+    
+            document.querySelector(this.getAttribute('href')).scrollIntoView({
+                behavior: 'smooth'
+            });
+        });
+    });
 
     var book_table = new Swiper(".book-table-img-slider", {
         slidesPerView: 1,
