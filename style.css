@@ -456,7 +456,8 @@ ul {
     }
 
     .mobile-banner-bg{
-        filter: brightness(0.1) blur(1px);
+        top: 15px;
+        filter: brightness(0.1) ;
     }
 }
 
