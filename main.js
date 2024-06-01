@@ -96,12 +96,14 @@ $(document).ready(function ($) {
         jQuery(".main-navigation").removeClass("toggled");
     });
 
+
+    //background change for navbar on scroll
     gsap.registerPlugin(ScrollTrigger);
 
     var elementFirst = document.querySelector('.site-header');
     ScrollTrigger.create({
         trigger: "body",
-        start: "30px top",
+        start: "100px top",
         end: "bottom bottom",
 
         onEnter: () => myFunction(),
