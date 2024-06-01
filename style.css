@@ -679,7 +679,9 @@ p {
     filter: brightness(0.3);
     opacity: 0.9;
 }
-
+.brands-box img{
+    width: 140px;
+}
 .brand-title .h5-title {
     text-transform: capitalize;
     font-size: 20px;
